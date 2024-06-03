@@ -26,14 +26,14 @@ function Home() {
     <div className="home">
       <div className="home__container">
         <img
-          src={"/assets/background/home.webp"}
+          src={"/assets/background/EcoMercatura-app-bg.png"}
           alt="home-background"
           className="home__image mobile-hidden"
           width="2000"
           height="800"
         />
         <img
-          src={"/assets/background/home-mobile.webp"}
+          src={"/assets/background/EcoMercatura-app-bg.png"}
           alt="home-background"
           className="home__image desktop-hidden"
           width="840"

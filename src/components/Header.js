@@ -41,11 +41,11 @@ function Header() {
         {/* Logo */}
         <Link to="/" className="header__logo-link">
           <img
-            src={"/assets/icons/logo.png"}
+            src={"/assets/icons/logo-removebg-preview.png"}
             alt="Logo"
             className="header__logo"
-            width={100}
-            height={38}
+            width={200}
+            height={80}
           />
         </Link>
 
@@ -66,10 +66,10 @@ function Header() {
             <span className="header__optionOne">English</span>
             <span className="header__optionTwo header__optionImg">
               <img
-                src={"/assets/icons/america-flag.png"}
+                src={"/assets/icons/Indian-flag.png"}
                 alt="English"
-                width={25}
-                height={16}
+                width={150}
+                height={25}
               />
             </span>
           </div>
@@ -152,7 +152,7 @@ function Header() {
               <span className="header__optionOne">English</span>
               <span className="header__optionTwo header__optionImg">
                 <img
-                  src={"/assets/icons/america-flag.png"}
+                  src={"/assets/icons/Indian-flag.png"}
                   alt="English"
                   width={40}
                   height={25}

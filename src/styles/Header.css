@@ -1,7 +1,7 @@
 .header__container {
   display: flex;
   align-items: center;
-  background: rgb(19,25,33);
+  background: #515d4d;
   font-size: 1.05em;
   padding: .25em 1em;
 
@@ -12,6 +12,7 @@
 
 .header__logo-link {
   margin-right: 1rem;
+  width: 10em;
 }
 
 .header__toggleOpen {
@@ -50,6 +51,7 @@
   display: flex;
   flex: 1;
   margin-right: .5em;
+  
 
   --border-radius: .5rem;
 }
@@ -67,7 +69,7 @@
 }
 
 .header__searchIcon {
-  background: rgb(254,189,104);
+  background: green;
   padding: .255em;
   display: flex;
 
