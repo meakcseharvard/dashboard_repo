@@ -35,9 +35,9 @@ export const renderRating = (num) => {
   return stars;
 };
 
-export const formatter = new Intl.NumberFormat("en-US", {
+export const formatter = new Intl.NumberFormat("en-IN", {
   style: "currency",
-  currency: "USD",
+  currency: "INR",
 });
 
 export const getTotalPrice = (cart) =>

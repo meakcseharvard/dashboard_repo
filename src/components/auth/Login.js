@@ -37,7 +37,7 @@ function Login() {
     <div className="login">
       <div className={mounted ? "login__wrapper active" : "login__wrapper"}>
         <Link to="/">
-          <img src={'/assets/icons/logo-dark.png'} alt="amazon" className="login__logo" width={136} height={52} />
+          <img src={'./assets/icons/EcoMercaturalogo-finalbig.png'} alt="EcoMercatura" className="login__logo" width={136} height={52} />
         </Link>
 
         <div className="login__container">
@@ -81,13 +81,13 @@ function Login() {
           </form>
 
           <p>
-            By continuing, you agree to Charles' Amazon Clone Conditions of Use
+            By continuing, you agree to EcoMercatura's Conditions of Use
             and Privacy Notice.
           </p>
         </div>
 
         <p>
-          New to Amazon Clone? <Link to="/signup">Create an account</Link>
+          New to EcoMercatura? <Link to="/signup">Create an account</Link>
         </p>
       </div>
     </div>

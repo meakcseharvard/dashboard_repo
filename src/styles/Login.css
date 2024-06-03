@@ -106,7 +106,7 @@
 }
 
 .login__signInButton {
-  background: linear-gradient(#f6dd9e, #f0c24d);
+  background: rgb(46, 139, 87);
   border: 0.075em solid rgb(135, 135, 135);
   border-radius: .1em;
   cursor: pointer;
@@ -118,7 +118,7 @@
 }
 
 .login__signInButton:hover {
-  background: linear-gradient(#ffdd87, #e8b537);
+  background: rgb(211, 211, 211);
 }
 
 .login button.active {

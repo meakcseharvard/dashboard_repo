@@ -41,7 +41,7 @@ function Header() {
         {/* Logo */}
         <Link to="/" className="header__logo-link">
           <img
-            src={"/assets/icons/logo-removebg-preview.png"}
+            src={"/assets/icons/EcoMercaturalogo-finalbig.png"}
             alt="Logo"
             className="header__logo"
             width={200}
@@ -143,7 +143,7 @@ function Header() {
             </div>
             <div>
               <span>Browse</span>
-              <p>Amazon Clone</p>
+              <p>EcoMercatura</p>
             </div>
           </div>
 
