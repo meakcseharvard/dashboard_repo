@@ -79,8 +79,8 @@ function Payment() {
           </div>
           <div className="payment__address">
             <p>{profile?.email}</p>
-            <p>123 Charles Lane</p>
-            <p>Los Angeles, CA</p>
+            <p>IIT(BHU) Varanasi</p>
+            <p>221005</p>
           </div>
         </div>
 
