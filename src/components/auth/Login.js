@@ -37,7 +37,7 @@ function Login() {
     <div className="login">
       <div className={mounted ? "login__wrapper active" : "login__wrapper"}>
         <Link to="/">
-          <img src={'./assets/icons/EcoMercaturalogo-finalbig.png'} alt="EcoMercatura" className="login__logo" width={136} height={52} />
+          <img src={'./assets/icons/EcoMercaturalogo-finalbig.png'} alt="EcoMercatura" className="login__logo" width={240} height={130} />
         </Link>
 
         <div className="login__container">

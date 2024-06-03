@@ -31,9 +31,8 @@ function Product({ id, image, title, price, rating }) {
           ))}
         </div>
         <p className="product__price">
-          <span>$</span>
+          <span>₹</span>
           <span>{utils.getPrice(price)}</span>
-          <span>{utils.getPrice(price, "decimal")}</span>
         </p>
       </div>
       <button type="button" onClick={handleAddClick} aria-label={`${title} - Add to cart`}>
