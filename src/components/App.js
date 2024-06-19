@@ -13,8 +13,14 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 
 import { useDispatch, useSelector } from "react-redux";
-import { clearOrders, clearProfile, setProfile, updateOrders } from "../redux/features/user/userSlice";
+import {
+  clearOrders,
+  clearProfile,
+  setProfile,
+  updateOrders,
+} from "../redux/features/user/userSlice";
 import getStorageKey from "../data/storageKey";
+import Dashboard from "./Dashboard/Dashboard";
 
 const promise = loadStripe(
   "pk_test_51LKikxJIr5sMtV8TVVCP3FSBVbFYb87a2Al30jAkasBgTDe61U02aRDd5ZJKT68wknB9Woa8ZNReOfSBs1Q3Ip6g00TdXWcbbN"
@@ -41,11 +47,13 @@ function App() {
   // Update redux orders when profile changes
   useEffect(() => {
     const LOCAL_STORAGE_KEY = getStorageKey(profile?.uid);
-    const currentProfileOrders = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
+    const currentProfileOrders = JSON.parse(
+      localStorage.getItem(LOCAL_STORAGE_KEY)
+    );
     if (profile && currentProfileOrders?.orders) {
       dispatch(updateOrders(currentProfileOrders.orders));
     }
-  }, [profile]);  
+  }, [profile]);
 
   return (
     <Router>
@@ -69,6 +77,7 @@ function App() {
               </>
             }
           />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route
